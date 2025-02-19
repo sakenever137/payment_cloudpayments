@@ -26,7 +26,7 @@
     'version': '1.0',
     'summary': 'Integration with CloudPayments',
     'category': 'Accounting/Payment Providers',
-    "description": """<p>This module integrates CloudPayments with Odoo.</p>""",
+    "description": """This module integrates CloudPayments with Odoo.""",
     'author': 'Saken Serdaly',
     'depends': ['payment'],
     'data': [
