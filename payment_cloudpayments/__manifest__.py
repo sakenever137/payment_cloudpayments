@@ -29,6 +29,9 @@
     "description": """This module integrates CloudPayments with Odoo.""",
     'author': 'Saken Serdaly',
     'depends': ['payment'],
+    'images': [
+        'static/description/banner.png',
+    ],
     'data': [
         'views/payment_cloudpayments_templates.xml',
         'views/payment_provider_views.xml',
