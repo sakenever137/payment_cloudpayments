@@ -17,7 +17,13 @@
 
 ## 🛠️ Установка
 
-1. Скопируйте модуль в директорию **addons/** Odoo:
+Скопируйте модуль в директорию **addons/** Odoo:
    ```sh
    cd /odoo/custom/addons
    git clone https://github.com/sakenever137/payment_cloudpayments.git
+   ```
+## 🛠️ Контакты
+
+Контакт: Saken Serdaly
+Email: sakenever137@gmail.com
+GitHub: https://github.com/sakenever137
