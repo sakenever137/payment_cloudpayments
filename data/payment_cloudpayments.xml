@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo noupdate="1">
+
+    <record id="payment_provider_cloudpayments" model="payment.provider">
+        <field name="name">Cloudpayments</field>
+        <field name="image_128"
+               type="base64"
+               file="payment_cloudpayments/static/description/icon.png"/>
+        <field name="module_id" ref="base.module_payment_cloudpayments"/>
+        <field name="payment_method_ids"
+               eval="[(6, 0, [
+                   ref('payment.payment_method_card'),
+               ])]"/>
+        <field name="code">cloudpayments</field>
+        <field name="redirect_form_view_id" ref="redirect_form"/>
+    </record>
+
+</odoo>

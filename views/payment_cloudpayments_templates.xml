@@ -1,0 +1,4 @@
+<odoo>
+    <template id="redirect_form" name="CloudPayments Form">
+    </template>
+</odoo>
